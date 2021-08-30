@@ -1,0 +1,31 @@
+<?php include 'incl.php'; ?>
+<html>
+<head>
+<?php include 'libs.php'; ?>
+<title>Basketball Game</title>
+<link rel="shortcut icon" href="basketball.png?rev=<?=time();?>" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="<?=$viewmode.'.css';?>?rev=<?=time();?>">
+<script type="text/javascript" src="phaser.min.js"></script>
+<style>
+body {
+  margin: 0;
+}
+canvas {
+  margin: 0 auto;
+  border: thin solid black;
+}
+span {
+  display: block;
+  margin: 30px auto;
+  width: 500px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<script src="basketball.js?rev=<?=time();?>"></script>
+</body>
+</html>
